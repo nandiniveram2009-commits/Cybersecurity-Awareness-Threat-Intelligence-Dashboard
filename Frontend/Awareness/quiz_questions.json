@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "category": "Phishing",
+    "question": "You receive an urgent email from IT stating your password expires in 10 minutes, prompting you to click a link and login. What should you do?",
+    "options": [
+      "A. Click immediately and update your password.",
+      "B. Ignore it and continue working.",
+      "C. Verify through an independent official channel before taking action.",
+      "D. Forward your password to the sender."
+    ],
+    "correct": "C",
+    "explanation": "Urgency combined with credential requests is a classic phishing indicator. Always verify via trusted internal channels."
+  },
+  {
+    "id": 2,
+    "category": "Passwords",
+    "question": "Why is password reuse across multiple professional and personal accounts dangerous?",
+    "options": [
+      "A. It slows down your browser.",
+      "B. If one service is breached, attackers gain access to all your other accounts.",
+      "C. It violates corporate bandwidth policies.",
+      "D. There is no danger."
+    ],
+    "correct": "B",
+    "explanation": "Credential stuffing attacks rely entirely on users reusing passwords across platforms."
+  }
+]
