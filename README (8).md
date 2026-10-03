@@ -145,7 +145,11 @@ A 30+ question interactive testing suite evaluating user competency across core 
 
 A simplified, non-technical management view displaying overall threat landscape metrics, critical threat counts, vulnerability exposure summaries, awareness score trends, and recommended defensive budget and policy priorities.
 ## API documentation 
-
+Method	         Endpoint	                               Description
+GET	            /api/threats	                       Retrieve filtered threat records.
+GET	            /api/indicators/search?value=...	   Search and validate indicator in local dataset.
+GET	            /api/dashboard/stats	               Retrieve SOC overview statistics.
+GET	            /api/vulnerabilities	               Retrieve prioritized CVE vulnerability list.
 
 ## Previcy vs security 
 
@@ -177,10 +181,6 @@ Developed responsive frontend data visualizations for cybersecurity metrics.
 ## Disclaimer 
 
 This project is designed exclusively for defensive cybersecurity education, threat-intelligence analysis, and security awareness. It does not execute, deploy, or interact with malicious payloads or unauthorized systems.
-## Author
-
-* **GitHub:** [nandiniveram2009](https://github.com)
-* **LinkedIn:** [Nandini Verma](https://linkedin.com)
 
 
 
@@ -193,10 +193,6 @@ Confidence (25%)
 Observation Frequency (25%)
 Source Reliability (20%)
 Classifications: 0–20 (Informational), 21–40 (Low), 41–60 (Medium), 61–80 (High), 81–100 (Critical).
-## API documentation 
-
-
-## API documentation 
 
 
 ## Limitations 
@@ -204,5 +200,9 @@ Classifications: 0–20 (Informational), 21–40 (Low), 41–60 (Medium), 61–8
 Relies on synthetic or public demo datasets rather than real-time commercial threat intelligence API feeds (e.g., VirusTotal, MISP).
 
 Correlation is rule-based rather than utilizing advanced machine learning anomaly detection.
-## API documentation 
 
+## Author
+
+* **GitHub:** [nandiniveram2009](https://github.com)
+* **LinkedIn:** [Nandini Verma](https://linkedin.com)
+* 
